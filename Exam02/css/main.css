@@ -1,0 +1,501 @@
+@font-face {
+	font-family: 'GothamBook';
+	src: url('./GothamBook.eot');
+	src: local('GothamBook'), url('./GothamBook.woff') format('woff'), url('./GothamBook.ttf') format('truetype');
+}
+/* use this class to attach this font to any element i.e. <p class="fontsforweb_fontid_10146">Text with this font applied</p> */
+.fontsforweb_fontid_10146 {
+	font-family: 'GothamBook' !important;
+}
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+a{
+	text-decoration: none;
+	display:inline-block;
+}
+ul,li{
+	padding: 0px;
+	margin:0px;
+	list-style: none;
+
+}
+.wrapper {
+    margin: 0 auto;
+    max-width: 1700px;
+    
+}
+.navbar{
+	background-color:none;
+	font-family: 'Lato', sans-serif;
+	font-style: lightpink;
+	align-items: center;
+	padding-left:13%;
+	padding-top:53px;
+	width:90%;
+}
+.navbar-toggle
+{
+	height:50px;
+	width:10%;
+	flex-direction:end;
+}
+.icon-bar{
+	margin-top:-20px;
+}
+
+.navbar-brand{
+	position: relative;
+
+}
+.nav-item a{
+	align-items:center;
+	margin-left:70px;
+	margin-top:10px;
+	font-size: 70%
+	line-hieght:22px;
+	color: #ffffff;
+	font-family: "Gotham";
+}
+.container1{
+	width:100%;
+	height:800px;
+	background:url(C:/Users/Anna/Desktop/Exam02/images/background1.png);
+}
+.nav-item svg {
+	fill: darkgreen;
+}
+.container2 h1{
+	padding-left:45% ;
+}
+
+.mains{
+	font-size: 80px;
+	letter-spacing: 4px;
+	line-height: 22px;
+	color: #ffffff;
+	font-weight: bold;
+	font-family: "Gotham";
+	text-align: center;
+	height:100px;
+}
+.center{
+	margin-top:188px;
+	width: auto;
+	height:400px;
+}
+.under{
+	padding-top:0px;
+	width:100%;
+	height:55px;
+	font-size: 18px;
+	letter-spacing: 5px;
+	line-height: 22px;
+	color: #ffffff;
+	font-family: "Gotham";
+	text-align: center;
+}
+
+.container2{
+	height:1630px;
+}
+.container2_sec1{
+	height:50%;
+	display:flex;
+}
+.container2_sec2{
+	height:50%;
+	display:flex;
+}
+.sec2_1 {
+	width:50%;
+}
+.sec2_2{
+	width:50%;
+}
+.sec1_1 .sec1_2{
+	width:50%;
+	height:50%;
+}
+.sec1_1 img{
+	margin-top:97px;
+	width:100%;
+}
+.sec1_2 .sec2_1{
+	width:50%;
+	height:50%;
+}	
+.bggr{
+	padding-top:170px
+	font-size: 22px;
+	line-height: 24px;
+	color: #2c4058;
+	font-family: "Gotham";
+	padding-left:50px;
+}
+.lill{
+	padding-top:150px;
+	padding-left:50px;
+}
+.sec1_2 p {
+	width: 100%;
+	height:84px;
+	font-size: 18px;
+	line-height: 30px;
+	color: #4b5562;
+	font-weight: 400;
+	font-family: "Open Sans";
+	padding-left:50px
+
+}
+.sec1_1 h1{
+	margin-left:30%;
+}
+.sec2_1 p{
+	height:84px;
+	width:100%;
+	font-size: 18px;
+	line-height: 30px;
+	color: #4b5562;
+	font-weight: 400;
+	font-family: "Open Sans";
+	padding-left:20%;
+	}
+
+.sec2_1 h2{
+	padding-left:20%;
+}
+.sec2_1 h6{
+	padding-left:20%;
+}
+button{
+	width:200px;
+	height:48px;
+	background-color:white;
+}
+.more1{
+	margin-left:50px;
+}
+.more2{
+	margin-top:45px;
+	margin-left:214px;
+	margin-top:70px;
+}
+.more1{
+	margin-top:40px;
+}
+.container3{
+	height:750px;
+	background: url(C:/Users/Anna/Desktop/Exam02/images/Bg.png);
+}
+.container3 h1{
+	margin-left:40%;
+}
+.slick-slide {
+	margin: 0px 10px;
+	width: 30%;
+}
+
+.slick-slide img {
+    width: 100%;
+}
+
+
+.slide__photo {
+    
+    background-color: white;
+}
+
+.slide__info {
+    padding: 10px;
+    background-color: white;
+}
+
+.slide__info h2 {
+    font-size: 20px;
+    padding-bottom: 5px;
+    text-transform: uppercase;
+}
+
+.slide__info p {
+    font-size: 15px;
+    padding-bottom: 10px;
+   
+}
+
+.slide__info h4 {
+    padding-bottom: 20px;
+}
+
+
+
+.container4{
+	height:1000px;
+	display:flex;
+}
+.container4 h1{
+	position:absolute;
+	margin-top:150px;
+	margin-left:43%;
+	font-size: 44px;
+	line-height: 22px;
+	color: #2c4058;
+	font-weight: 500;
+	font-family: "Gotham";
+	text-align: center;
+}
+.grid-container {
+		height:0px;
+		margin-left:10%;
+		width:80%;
+		margin-top:300px;
+		position: relative;
+		display: grid;
+		grid-template-columns: 1fr 1fr 1fr 1fr;
+		grid-template-rows: 1fr 1fr;
+		gap: 0px 0px;
+		grid-template-areas:
+		"el el . ."
+		"el el . .";
+	}
+	.el { grid-area: el; }
+	.el1 { grid-area: el1; }
+	.el2 { grid-area: el2; }
+	.el3 { grid-area: el3; }
+	.el4 { grid-area: el4; }
+.el { 
+	grid-column-start:1;
+    grid-column-end: 3;
+    grid-row-start: 1;
+	grid-row-end: 3;
+} 
+.el1 { 
+	grid-column-start:3;
+    grid-column-end: 4;
+    grid-row-start: 1;
+	grid-row-end: 2;
+ }
+.el2 {
+	grid-column-start:3;
+    grid-column-end: 4;
+    grid-row-start:2;
+	grid-row-end:3;
+ }
+.el3 {
+	grid-column-start:4;
+    grid-column-end:5;
+    grid-row-start:1;
+	grid-row-end: 2; 
+}
+.el4 { 
+	grid-column-start:4;
+    grid-column-end: 4;
+    grid-row-start:2;
+	grid-row-end:2;
+ }
+.container5{
+	height:1200px;
+}
+.slick-prev, 
+.slick-next {
+    -webkit-transform: translate(-50%, 0) rotate(90deg);
+    -ms-transform: translate(-50%, 0) rotate(90deg);
+    transform: translate(-50%, 0) rotate(90deg);
+    left: 50%;
+}
+    
+.slick-prev {
+    top: -10px;
+}
+
+.slick-next {
+    top: auto;
+    bottom: -20px;
+}
+.grid-container div{
+	padding: 0.1em;
+}
+
+.container5{
+	height:1000px;
+	width:100%;
+	display:flex;
+	background:url(C:/Users/Anna/Desktop/Exam02/images/Bg.png);;
+}
+iframe{
+		display: block;
+		width: 146%;
+		height:600px;
+		margin: 0px 0px 0px -30%;
+		background: #000;
+		position: relative;
+	}
+.container5_01{
+	height:400px;
+	width:47%;
+	margin-top:400px;
+	margin-left:25%;
+	position:absolute;
+	background-color:#FFFFFF;
+}
+.container5_01 h1{
+font-size: 34px;
+line-height: 22px;
+color: #2c4058;
+font-weight: 500;
+font-family: "Gotham";
+padding-top:20px;
+padding-left:32%;
+}
+.container_contact{
+	display:flex;
+	height:350px;
+}
+.contact_inform{
+	width:50%;
+
+}
+.contact_form{
+	width:50%;
+}
+.contact_inform li{
+	padding-top:10px;
+	padding-left:20px ;
+	font-size:18px;
+	line-height: 34px;
+	color:#2C4058;
+	font-family: "Font Awesome";}
+.contact_inform ul{
+	padding-top:52px;
+}
+.contact_form{
+	margin-top:105px;
+}
+input[type=text] {
+    border: none;
+    border-bottom: 0.5px solid black;
+}
+input[type=text] {
+    border: none;
+	border-bottom: 0.5px solid black;
+	padding-top:7px;
+	height:30px;
+	width:100%;
+}
+input[type=email] {
+    border: none;
+	border-bottom: 0.5px solid black;
+	padding-top:7px;
+	opacity:0.7;
+	height:30px;
+	width:100%;
+}
+.but{
+	padding-top:30px;
+	padding-left:150px;
+}
+.submition{
+	border:0,5px;
+	box-shadow:none;
+	width:50%;
+}
+@media (max-width: 900px) {
+	.mains{
+		font-size:29px;
+	}
+	.under{
+		font-size:19px;
+	}
+	.contact_inform li{
+		font-size:12px;
+	}
+	.but{
+		font-size:10px;
+		width:200%;
+		margin-left:-120px;
+	}
+
+}
+@media (max-width: 450px) {
+	.container5_01{
+		width:70% ;
+	}
+	.contact_inform li{
+		font-size:8px;
+	}
+	.but{
+		font-size:10px;
+		width:200%;
+		margin-left:-120px;
+	}
+	.navbar-brand img {
+		width:100px;
+		padding-left:20px;
+	}
+	.mains{
+		font-size:19px;
+		padding-left:35px;
+	}
+	.under{
+		font-size:12px;
+		padding-left:35px;
+	}
+	.container2 h1{
+		font-size:20px;
+		margin-left:-30px;
+	}
+	.sec1_2 p {
+		font-size:10px;
+		line-height:10px;
+	}
+	.sec1_2 h2{
+		font-size:13px;
+	}
+	.sec1_2 h6{
+		font-size:11px;
+	}
+	.sec1_2 img{
+		width:20%;
+
+	}
+	.sec1_2 button{
+		width:90px;
+		height:50px;
+	}
+	.sec2_1 h2{
+		font-size:13px;
+	}
+	.sec2_1 p{
+		font-size:10px;
+		line-height:10px;
+	}
+	.sec2_1 h6{
+		font-size:11px;
+	}
+	.container2{
+		height:1030px;
+		
+	}
+	.container2_sec2{
+		height:200px;
+	}
+	.sec2_1 button{
+		width:90px;
+		height:50px;
+		padding-top: -200px;
+	}
+	.container3 h1{
+		font-size:20px;
+		margin-left:70px;
+	}
+	.container4 h1{
+		font-size:20px;
+		margin-left:70px;
+	}
+	.container4{
+		height: 500px;
+	}
+}
